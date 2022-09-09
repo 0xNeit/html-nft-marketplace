@@ -33,8 +33,47 @@ body.dark-scheme {
     background: var(--dark-color-scheme);
 }
 
+body.boxed {
+    margin: 30px;
+    overflow: hidden;
+    border: solid 1px #eee;
+}
+
+body .owl-stage .owl-item {
+    margin-bottom: 15px;
+
+}
+
 #wrapper {
-    overflow: hidden
+    overflow: hidden;
+}
+
+.de-navbar-left #wrapper {
+    overflow: visible;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a.a-underline {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+a.a-underline span {
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    border-bottom: solid 1px #333;
+    width: 0;
+}
+
+a.a-underline:hover span {
+    width: 100%;
 }
 
 .container {
