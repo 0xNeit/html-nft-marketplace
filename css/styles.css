@@ -54,7 +54,11 @@ body.dark-scheme {
 }
 
 .sm-pt10 {
-    padding-top: 10px
+    padding-top: 10px;
+}
+
+.xs-hide {
+    display: none;
 }
 
 /* ============================================== */
@@ -76,8 +80,63 @@ header.smaller.has-topbar {
     height: 105px;
 }
 
+header.header-s1 {
+    top: 0;
+}
+
+header .info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    z-index: 100;
+    background: #242424;
+
+}
+
 header.transparent {
     background: none;
+}
+
+.header-col-mid {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    padding: 0 0 0 0;
+    left: 20px;
+}
+
+/* ======================================== */
+
+/* Navigation */
+
+/* ======================================== */
+
+#mainmenu {
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 auto;
+    float: none;
+}
+
+#mainmenu ul {
+    margin: 0px 0px;
+    padding: 0px;
+    height: 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+#mainmenu li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: inline;
+    list-style: none;
+    position: relative;
 }
 
 
