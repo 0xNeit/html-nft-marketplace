@@ -37,5 +37,48 @@ body.dark-scheme {
     overflow: hidden
 }
 
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-flex>.my-flex-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-pt10 {
+    padding-top: 10px
+}
+
+/* ============================================== */
+
+/* Header Styles */
+
+/* ============================================== */
+
+header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    background: #353f52;
+    margin: 0;
+}
+
+header.smaller.has-topbar {
+    height: 105px;
+}
+
+header.transparent {
+    background: none;
+}
+
 
 
