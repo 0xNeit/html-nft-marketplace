@@ -25,3 +25,13 @@ body {
     word-spacing: 0px;
 }
 
+.dark-scheme {
+    color: var(--dark-scheme-font-color);
+}
+
+body.dark-scheme {
+    background: var(--dark-color-scheme);
+}
+
+
+
